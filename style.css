@@ -18,7 +18,7 @@ Text Domain: twentyeleven
 -------------------------------------------------------------- */
 
 html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+h1, h2, h3, h4, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, font, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -34,6 +34,12 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	outline: 0;
 	padding: 0;
 	vertical-align: baseline;
+}
+h6{
+	font-size: xx-large;
+}
+h5{
+	font-size:xx-large;
 }
 :focus {/* remember to define focus styles! */
 	outline: 0;
@@ -543,8 +549,8 @@ a.assistive-text:focus,
 	padding: 3.65625em 0 0;
 }
 #site-title a {
-	color: #111;
-	font-size: 30px;
+	color: #f7f7f7;
+	font-size: 70px;
 	font-weight: bold;
 	line-height: 36px;
 	text-decoration: none;
@@ -2856,4 +2862,34 @@ p.comment-form-comment {
 }
 #ie8 section.featured-post .attachment-small-feature {
 	max-width: none;
+}
+body {
+    margin: 100px;
+    padding: 100px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+nav ul {
+	background-color: #000;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #777;
+    font-weight: bold;
+    font-size: 16px;
+}
+h6 {
+    margin-bottom: 400px; /* Đặt khoảng cách giữa các đoạn văn */
 }
