@@ -37,9 +37,11 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 }
 h6{
 	font-size: xx-large;
+	text-align: left;
 }
 h5{
 	font-size:xx-large;
+	text-align: left;
 }
 :focus {/* remember to define focus styles! */
 	outline: 0;
@@ -2873,7 +2875,7 @@ body {
     font-family: 'Arial', sans-serif;
 }
 nav ul {
-	background-color: #000;
+	background-color: white;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -2885,11 +2887,75 @@ nav li {
 }
 
 nav a {
+	color: black;
     text-decoration: none;
-    color: #777;
     font-weight: bold;
     font-size: 16px;
 }
 h6 {
     margin-bottom: 400px; /* Đặt khoảng cách giữa các đoạn văn */
+}
+header {
+	background-image: url(https://saigonbanmehotel.com.vn/wp-content/uploads/2019/12/tp.buonmathuot.jpg);
+	background-size: cover;
+	height: 600px;
+	text-align: center;
+	padding-top: 50px;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+.baiviet{
+	font-size: 20px;
+	text-align: center;
+}
+p {
+    line-height: 1.5;
+}
+.LINK{
+	text-align: center;
+	font-size: xx-large;
+}
+.Menu{
+	font-size: xx-large;
+	color: red;
+	cursor: pointer;
+}
+.ANBATOCOM{
+	font-size: xx-large;
+	text-align: center;
+	margin: 10px;
+	padding: 10px;
 }
