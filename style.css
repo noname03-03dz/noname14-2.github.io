@@ -2962,8 +2962,15 @@ p {
     transform: translate(-50%, -50%);
 }
 
-.square {
-    width: 1028px; /* Thay đổi kích thước theo mong muốn */
+.squaredc {
+    width: 1053px; /* Thay đổi kích thước theo mong muốn */
+    height: 586px; /* Thay đổi kích thước theo mong muốn */
+    background-color: whitesmoke; /* Thay đổi màu sắc theo mong muốn */
+	margin-top: 170%;
+}
+
+.square{
+	width: 1028px; /* Thay đổi kích thước theo mong muốn */
     height: 810px; /* Thay đổi kích thước theo mong muốn */
     background-color: whitesmoke; /* Thay đổi màu sắc theo mong muốn */
 	margin-top: 190%;
