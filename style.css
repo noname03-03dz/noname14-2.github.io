@@ -2929,7 +2929,9 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f2f2f2;
+	text-align: center;
+    background-color: rgb(201, 195, 195);
+    height: 100vh;
 }
 .baiviet{
 	font-size: 20px;
@@ -2952,4 +2954,21 @@ p {
 	text-align: center;
 	margin: 10px;
 	padding: 10px;
+}
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.square {
+    width: 1028px; /* Thay đổi kích thước theo mong muốn */
+    height: 810px; /* Thay đổi kích thước theo mong muốn */
+    background-color: whitesmoke; /* Thay đổi màu sắc theo mong muốn */
+	margin-top: 190%;
+}
+.hinhgt{
+	width: 950px;
+	height: 495px;
 }
