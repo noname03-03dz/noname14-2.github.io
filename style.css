@@ -533,7 +533,6 @@ a.assistive-text:focus,
 	text-decoration: none;
 	top: 7px;
 	width: auto;
-	z-index: 100000;
 	/* Above WP toolbar. */
 }
 
@@ -544,7 +543,6 @@ a.assistive-text:focus,
 	border-top: 2px solid #bbb;
 	padding-bottom: 10px;
 	position: relative;
-	z-index: 9999;
 }
 #site-title {
 	margin-right: 270px;
@@ -620,7 +618,6 @@ a.assistive-text:focus,
 	top: 3.333em;
 	left: 0;
 	width: 188px;
-	z-index: 99999;
 }
 #access ul ul ul {
 	left: 100%;
@@ -693,7 +690,6 @@ a.assistive-text:focus,
 }
 #branding .only-search #searchform {
 	top: 5px;
-	z-index: 1;
 }
 #branding .only-search #s {
 	background-color: #666;
@@ -1499,7 +1495,6 @@ article.feature-image.small .entry-summary p a {
 	text-decoration: none;
 	top: 20px;
 	width: 180px;
-	z-index: 1;
 }
 article.feature-image.small .entry-summary p a:hover {
 	background: #1982d1;
@@ -1698,7 +1693,6 @@ section.recent-posts .other-recent-posts .comments-link > span {
 	right: 0;
 	text-align: right;
 	text-transform: uppercase;
-	z-index: 1;
 }
 section.recent-posts .other-recent-posts .comments-link > span {
 	border-color: #bbb;
@@ -1806,7 +1800,6 @@ video {
 	position: relative;
 	top: -0.3em;
 	text-align: right;
-	z-index: 1;
 }
 #nav-single .nav-previous,
 #nav-single .nav-next {
@@ -2236,12 +2229,10 @@ a.comment-reply-link > span {
 	padding: 4px 10px;
 	position: relative;
 	top: 40px;
-	z-index: 1;
 }
 #respond input[type="text"]:focus,
 #respond textarea:focus {
 	text-indent: 0;
-	z-index: 1;
 }
 #respond textarea {
 	resize: vertical;
@@ -2968,7 +2959,28 @@ p {
     background-color: whitesmoke; /* Thay đổi màu sắc theo mong muốn */
 	margin-top: 170%;
 }
-
+.squaredctulen {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1028px; /* Thay đổi kích thước theo mong muốn */
+    height: 810px; /* Thay đổi kích thước theo mong muốn */
+    background-color: whitesmoke; /* Thay đổi màu sắc theo mong muốn */
+    /* Thêm các thuộc tính khác nếu cần */
+	margin-top: 50%;
+}
+.squaredctulen2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1028px; /* Thay đổi kích thước theo mong muốn */
+    height: 810px; /* Thay đổi kích thước theo mong muốn */
+    background-color: whitesmoke; /* Thay đổi màu sắc theo mong muốn */
+    /* Thêm các thuộc tính khác nếu cần */
+	margin-top: 100%;
+}
 .square{
 	width: 1028px; /* Thay đổi kích thước theo mong muốn */
     height: 810px; /* Thay đổi kích thước theo mong muốn */
