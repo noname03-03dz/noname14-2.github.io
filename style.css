@@ -2954,10 +2954,14 @@ p {
 }
 
 .squaredc {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 1053px; /* Thay đổi kích thước theo mong muốn */
     height: 586px; /* Thay đổi kích thước theo mong muốn */
     background-color: whitesmoke; /* Thay đổi màu sắc theo mong muốn */
-	margin-top: 170%;
+	margin-top: 190%;
 }
 .squaredctulen {
     position: absolute;
@@ -2965,29 +2969,37 @@ p {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 1028px; /* Thay đổi kích thước theo mong muốn */
-    height: 810px; /* Thay đổi kích thước theo mong muốn */
+    height: 630px; /* Thay đổi kích thước theo mong muốn */
     background-color: whitesmoke; /* Thay đổi màu sắc theo mong muốn */
     /* Thêm các thuộc tính khác nếu cần */
-	margin-top: 50%;
+	margin-top: 46%;
 }
+
 .squaredctulen2 {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 1028px; /* Thay đổi kích thước theo mong muốn */
-    height: 810px; /* Thay đổi kích thước theo mong muốn */
+    height: 630px; /* Thay đổi kích thước theo mong muốn */
     background-color: whitesmoke; /* Thay đổi màu sắc theo mong muốn */
     /* Thêm các thuộc tính khác nếu cần */
-	margin-top: 100%;
+	margin-top: 80%;
+}
+.squaredctulen3{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1028px; /* Thay đổi kích thước theo mong muốn */
+    height: 630px; /* Thay đổi kích thước theo mong muốn */
+    background-color: whitesmoke; /* Thay đổi màu sắc theo mong muốn */
+    /* Thêm các thuộc tính khác nếu cần */
+	margin-top: 114%;
 }
 .square{
 	width: 1028px; /* Thay đổi kích thước theo mong muốn */
     height: 810px; /* Thay đổi kích thước theo mong muốn */
     background-color: whitesmoke; /* Thay đổi màu sắc theo mong muốn */
 	margin-top: 190%;
-}
-.hinhgt{
-	width: 950px;
-	height: 495px;
 }
